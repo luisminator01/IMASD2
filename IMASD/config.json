@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DevConnectionString": "Server=(localdb)\\MSSQLLocalDB;Initial Catalog=DBNOMINA2022v2;Integrated Security=True;MultipleActiveResultSets=True"
+  }
+}
