@@ -90,7 +90,7 @@ namespace IMASD.Controllers
                 await _context.Database
                         .ExecuteSqlInterpolatedAsync($@"EXEC PutTabulador
                                                                            @idTabulador={id},
-                                                                           @nombreDep={tabulador.nivelTabulador},
+                                                                           @nivelTabulador={tabulador.nivelTabulador},
                                                                            @sbruto ={tabulador.sbruto}");
             }
             catch (DbUpdateConcurrencyException)
